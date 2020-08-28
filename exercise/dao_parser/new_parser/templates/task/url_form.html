@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form action="" method="POST">
+        {% csrf_token %}
+        <label for="URL">URL to parse</label>
+        <input id="URL" type="text" name="parsed_url"><br>
+        <label for="Go">Go</label>
+        <input type="submit" value="Submit", name="Go">    
+    </form>
+{% endblock content %}

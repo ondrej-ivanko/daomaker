@@ -1,0 +1,17 @@
+{
+    {
+        "python.pythonPath": "c:\\Users\\Kdo je tady panem\\daomaker\\venv\\Scripts\\python.exe",
+        "python.linting.enabled": true,
+        "python.linting.pylintPath": "c:\\Users\\Kdo je tady panem\\daomaker\\venv\\Scripts\\pylint.exe",
+        "editor.formatOnPaste": true,
+        "[python]": {
+            "editor.formatOnPaste": false
+        },
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveTimeout": 3000,
+        "python.formatting.provider": "black",
+        "python.formatting.blackPath": "c:\\Users\\Kdo je tady panem\\daomaker\\venv\\Scripts\\black.exe",
+        "python.testing.autoTestDiscoverOnSaveEnabled": false,
+        "breadcrumbs.enabled": true,
+    }
+}
